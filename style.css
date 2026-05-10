@@ -1,0 +1,176 @@
+:root {
+    --bg: #000;
+    --acsent-color: #D23166;
+    --main-color: #FFF;
+    --sociol-bg: rgba(255,255,255,0.10);
+    --card-bg: #151515;
+    --color-btn: #FAFAFA;
+    --about-text: rgba(255, 255, 255, 0.20);
+}
+
+.container {
+    width: 1267px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid red;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 95px;
+}
+
+.header-link {
+color: var(--main-color);
+text-align: justify;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+}
+
+.header-items {
+    display: flex;
+    gap: 15px;
+}
+
+.header-social {
+    width: 36px;
+    height: 36px;
+    background-color: var(--sociol-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.header-img {
+    width: 15px;
+    height: 15px;
+}
+
+.hero .container{
+    display: flex;
+    gap: 73px;
+    align-items: center;
+}
+
+.hero-text{
+    align-self: stretch;
+color: var(--main-color);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+margin-bottom: 20px;
+}
+
+.hero-title{
+align-self: stretch;
+color: var(--main-color);
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+width: 587.0px;
+margin-bottom: 16px;
+}
+
+.hero-span{
+    color: var(--acsent-color);
+}
+
+.hero-desk{
+    color: var(--main-color);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.6;
+width: 578.0px;
+margin-bottom: 48px;
+}
+
+.hero-btn{
+    background-color: var(--acsent-color);
+    padding: 13px 50px;
+    color: var(--color-btn);
+font-family: "Hind Madurai";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+.about{
+    padding-top: 129px;
+    padding-bottom: 105px;
+}
+
+.about .container{
+    position: relative;
+}
+
+
+.about-text{
+    color: var(--main-color);
+text-align: center;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+}
+
+
+.about-span{
+    color: var(--about-text);
+}
+
+
+
+.about-milk{
+position: absolute;
+left: 40px;
+top: 100px;
+}
+
+
+.about-strawberry{
+position: absolute;
+bottom: -45px;
+left: 50%;
+
+}
+
+
+.about-nuts{
+   position: absolute; 
+   top: -70px;
+   right: 130px;
+}
